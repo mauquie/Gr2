@@ -1,0 +1,12 @@
+PokerController
+
+Garrigues : 
+Classe Joueur
+
+Delbart : 
+Classe Carte
+Classe Partie
+
+Le Gouesbe :
+Classe Coup
+Classe Croupier
