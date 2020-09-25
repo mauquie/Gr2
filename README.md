@@ -1,2 +1,2 @@
 # Gr2
-Garrigues LeGouesbe Delsart
+Garrigues LeGouesbe Delbart
