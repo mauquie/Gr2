@@ -1,0 +1,78 @@
+import random
+
+class joueur:
+
+  def __init__(self,name,main,tapis,combinaison):
+    self.nom=str(name)
+    self.main=[]
+    self.tapis=int(tapis)
+    self.combinaison=combinaison
+
+  def evaluer(self):
+    pass
+
+  def nouvelle_donne(self):
+    pass
+
+  def recevoir_cartes(self):
+    pass
+
+class Carte:
+
+  def __init__(self):
+    self.couleur=["P","C","K","T"]
+    self.rang=["2","3","4","5","6","7","8","9","X","J","Q","R","A"]
+
+class Partie:
+
+  def __init__(self, joueurs):
+    self.list=joueur
+
+  def jouer(self):
+    pass
+
+class Coup:
+
+  def __init__(self,Croupier,Joueurs):
+    self.croupier=Croupier
+    self.gagnant=Joueurs
+    self.joueurs=[]
+
+  def abattre(self):
+    pass
+
+  def distribuer(self):
+    pass
+
+  
+class Croupier(Carte, joueur):
+
+  def __init__(self):
+    Carte.__init__(self)
+    self.paquet=[]
+
+  def rassembler(self,paquet,couleur,rang):
+    for i in range(4):
+      for j in range(13):
+        self.paquet.append(self.couleur[i] + self.rang[j])
+    """Rassembler un paquet de 52 cartes avec 2 for dans les deux listes couleur et rang"""
+
+  def mélanger(self):
+    random.shuffle(self.paquet)
+
+  def couper(self):
+    paquet_coupe=0
+    random.randint(1,c)
+    for i in range(1,c):
+      paquet_coupe.append(self.paquet[i])
+      
+
+  def distribuer(self):
+    N=int(input("Combien de cartes voulez-vous distribuer ? "))
+    for i in range(2):
+      self.paquet.append(main)
+
+
+
+  def nouvelle_donne(self):
+    pass
